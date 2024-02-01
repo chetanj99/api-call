@@ -6,8 +6,6 @@ const App = () => {
   const dispatch = useDispatch()
   const data = useSelector(state => state.test)
 
-  console.log(data)
-
   const page = 1;
   const perPage = 3;
 
